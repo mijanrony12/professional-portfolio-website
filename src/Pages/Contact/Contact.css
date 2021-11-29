@@ -1,0 +1,39 @@
+.form {
+  width: 50%;
+  margin: 50px auto;
+  background-image: url("https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=");
+  background-position: center;
+  background-size: cover;
+  padding: 30px 20px;
+}
+.form h1 {
+  color: #e67e22;
+  text-align: center;
+}
+.form input,
+textarea {
+  width: 100%;
+  margin: 8px 0px;
+  padding: 5px;
+}
+.form label {
+  color: #ffffff;
+}
+
+.form button {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 26px;
+  border-radius: 10px;
+  border: 2px solid #e67e22;
+}
+.form button:hover {
+  background-color: #e67e22;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .form {
+    width: 100%;
+  }
+}
