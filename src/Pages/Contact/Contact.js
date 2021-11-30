@@ -19,7 +19,7 @@ const Contact = () => {
    }
     return (
         <>
-            <Header></Header>
+            
             <div className="form">
                    <h1 >Contact With Me</h1>
                 <form onSubmit={sendEmail}>
