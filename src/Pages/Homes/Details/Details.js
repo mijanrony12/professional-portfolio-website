@@ -12,7 +12,6 @@ const Details = () => {
     console.log(myProject)
     return (
         <>
-            <Header></Header>
             <div>
                 
                 <div className="mt-5">

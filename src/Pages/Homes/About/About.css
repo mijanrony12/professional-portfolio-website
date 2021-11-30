@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  color: #ffffff;
+}
+.me {
+  width: 58%;
+  padding-right: 100px;
+}
+.me p {
+  text-align: justify;
+}
+.me span {
+  color: #e67e22;
+  font-style: italic;
+}
+.education {
+  width: 40%;
+}
+.education h1 {
+  color: #e67e22;
+}
+.education p {
+  display: inline-block;
+  margin: 5px 8px;
+  padding: 5px 8px;
+  background-color: gray;
+}
+
+.icon a {
+  color: #e67e22;
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 2rem;
+}
+.icon a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .about {
+    display: block;
+  }
+  .me {
+    width: 100%;
+  }
+  .education {
+    width: 100%;
+  }
+}

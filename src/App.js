@@ -7,11 +7,14 @@ import Contact from './Pages/Contact/Contact';
 import Blogs from './Pages/Blogs/Blogs';
 import About from './Pages/Homes/About/About';
 import Details from './Pages/Homes/Details/Details';
+import Header from './Pages/Homes/Header/Header';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
     <div >
       <BrowserRouter>
+           <Header/>
            <Routes>
                    <Route path="/" element={<Home/>}/>
                    <Route path="home" element={<Home/>}/>
@@ -20,8 +23,9 @@ function App() {
                    <Route path=":id" element={<Details/>}/>
                    <Route path="contact" element={<Contact/>}/>
             </Routes>
+             
       </BrowserRouter>
-           
+            <Footer></Footer>
     </div>
   );
 }
