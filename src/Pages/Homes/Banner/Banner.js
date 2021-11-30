@@ -17,8 +17,12 @@ const Banner = () => {
                                    <h5>I am a Jr. Front End Developer with project experience</h5>
                                   <a href="https://drive.google.com/file/d/1fHCAVRpOptkNQwGmZrg5kvCoPGIPvsGw/view?usp=sharing" target="blank">Download Resume</a>
                                    <Link to="/about">About Me</Link>
-                            </div>
-                 </div>
+                    </div>
+                   
+                </div>
+                 <marquee width="100%" direction="right"  >
+                                  Mijanur Rahman a Passionate Front End developer.
+                     </marquee>
         </Container>
            
         </>
