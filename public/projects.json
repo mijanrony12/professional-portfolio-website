@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Car Dealer App",
+    "title": "this is a mern stack website. Users can buy a product, Confirm the order and user also can delete an order.",
+    "img": "https://i.ibb.co/Lz8rYsS/project1.png",
+    "ss1": "https://i.ibb.co/71tp8H8/car1.png",
+    "ss2": "https://i.ibb.co/DVRrWvT/car2.png",
+    "site": "https://car-dealer-app-fe152.web.app/",
+    "client": "https://github.com/mijanrony12/niche-car-dealer-app-ass12-client-site",
+    "server": "https://github.com/mijanrony12/niche-car-dealer-app-ass12-server-site",
+    "tech":"HTML5, CSS3, Bootstrap5, React.js, firebase, React Bootstrap.Node JS, Express JS, Mongo DB, Heroku.",
+    "desc": "Users can buy a product, Confirm the order and user also can delete an order. I am implementing login, register system, private Route, create an admin and user panel on this website. Implement crud operation and fully responsive for mobile and desktop."
+  },
+  {
+    "id": 2,
+    "name": "Tg Tour Agency",
+    "title": "this is  also a mern stack website. This is tour base package seller agency website. Users buy any package easily.",
+    "img": "https://i.ibb.co/XfP0MXb/project2.png",
+    "ss1": "https://i.ibb.co/ys0sGZZ/tour1.png",
+    "ss2": "https://i.ibb.co/SmJzrxb/tour2.png",
+    "site": "https://gt-tour-agency.web.app/",
+    "client": "https://github.com/mijanrony12/tour-app-ass11-client-site",
+    "server": "https://github.com/mijanrony12/tour-app-ass11-server-site",
+    "tech":"HTML5, CSS3, Bootstrap5, React.js, firebase, React Bootstrap.Node JS, Express JS, Mongo DB, Heroku.",
+    "desc": "This is tour base package seller agency website. Users buy any package easily.When the user want to confirm a purchase you must have a login before confirming the purchase.Admin user can manage total order, create a new admin and user order confirm."
+  },
+  {
+    "id": 3,
+    "name": "Prime HTL  Ltd",
+    "title": "this is only client base website. This is the client based website You can purchase any service from here.",
+    "img": "https://i.ibb.co/g3nVJtm/project3.png",
+    "ss1": "https://i.ibb.co/ynnKSx2/prime1.png",
+    "ss2": "https://i.ibb.co/JB1BbxS/prime2.png",
+    "site": "https://prime-hospital-ltd.web.app/",
+    "client": "https://github.com/mijanrony12/health-care-app-ass10",
+    "tech":"HTML5, CSS3, Bootstrap5, React.js, firebase, React Bootstrap, react-hook-form.",
+    "server": "",
+    "desc": "This is the only client site-based website You can purchase any service from here. Implement redirect route, login, register system, and discount system.You can find out if your order has been confirmed throught SweetAlert. "
+  }
+]
+
+
+
+
+
+
+
