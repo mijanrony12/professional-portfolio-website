@@ -42,8 +42,10 @@
   }
   .me {
     width: 100%;
+    margin: 0px auto;
   }
   .education {
     width: 100%;
+    margin: 20px auto;
   }
 }
