@@ -15,7 +15,7 @@ const Projects = ({ project }) => {
                                                 <div className="content">
                                                     <h2>{ name}</h2>
                                                     <p>{title}</p>
-                                                   <Link to={`${id}`} >Project Details</Link>
+                                                   <Link to={`/${id}/details`} >Project Details</Link>
                                                 </div>
                                         </div>
                                </div>

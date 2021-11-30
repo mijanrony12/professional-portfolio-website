@@ -25,20 +25,25 @@ function App() {
   
   return (
     <div className="">
-     
-          {/* // <div className="spin-loader"><ClipLoader color={"#e67e22"} loading={loading}  size={100} /></div> */}
-        < BrowserRouter>
+      {
+        loading ?
+           <div className="spin-loader"><ClipLoader color={"#e67e22"} loading={loading}  size={100} /></div>
+          :
+          < BrowserRouter>
            <Header/>
            <Routes>
                    <Route path="/" element={<Home/>}/>
                    <Route path="home" element={<Home/>}/>
                    <Route path="about" element={<About/>}/>
                    <Route path="blogs" element={<Blogs/>}/>
-                   <Route path=":id" element={<Details/>}/>
+                   <Route path=":id/details" element={<Details/>}/>
                    <Route path="contact" element={<Contact/>}/>
             </Routes>
               <Footer></Footer>
       </BrowserRouter>
+      }
+    
+        
             
 
       
