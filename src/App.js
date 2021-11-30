@@ -12,6 +12,7 @@ import Footer from './Pages/Footer/Footer';
 import { useEffect, useState } from 'react';
 import ClipLoader from "react-spinners/BounceLoader";
 
+
 function App() {
   const [ loading, setLoading ] = useState(false)
   
@@ -24,11 +25,9 @@ function App() {
   
   return (
     <div className="">
-      {
-        loading ?
-          <div className="spin-loader"><ClipLoader color={"#e67e22"} loading={loading}  size={100} /></div>
-          :
-           <BrowserRouter>
+     
+          {/* // <div className="spin-loader"><ClipLoader color={"#e67e22"} loading={loading}  size={100} /></div> */}
+        < BrowserRouter>
            <Header/>
            <Routes>
                    <Route path="/" element={<Home/>}/>
@@ -41,7 +40,7 @@ function App() {
               <Footer></Footer>
       </BrowserRouter>
             
-      }
+
       
     </div>
   );
